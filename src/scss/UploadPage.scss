@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import "./Variable";
+
+// #upload-container {
+#container {
+  .inner {
+    .upload_h1 {
+      display: flex;
+      border-bottom: 3px solid $primary;
+      // font-size: $font_size_7;
+      font-weight: 500;
+      padding: 38px 9px 5px;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+}
+// }
+#upload-img-placeholder {
+  margin: auto 0px;
+  width: 200px;
+  height: 180px;
+  border: 1px dashed rgb(153, 153, 153);
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    border: 1px dashed $primary;
+  }
+  img {
+    opacity: 0.7;
+    width: 130px;
+    height: 130px;
+  }
+  p {
+    color: $primary;
+    font-weight: 500;
+  }
+  .upload-img {
+    color: rgb(173, 173, 173);
+    margin-top: 25px;
+    font-size: 120px;
+  }
+}
+#upload-img {
+  width: 300px;
+}
+
+.btn {
+  // position: relative;
+  @include position_center;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.category_btn {
+  background: linear-gradient(-45deg, $primary, $secondary, $accent /* #ee7752, #e73c7e, #23a6d5, #23d5ab */);
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+@include btn_keyframe;
+
+.upload_image {
+  display: flex;
+  justify-content: center;
+}
+.ant-form-item {
+  margin-top: 30px;
+}
+.ant-form-item .ant-form-item-label {
+  text-align: start;
+  > label {
+    font-weight: bold;
+    font-size: 16px;
+    &::after {
+      content: "";
+    }
+  }
+}
+
+.ant-select-single .ant-select-selector {
+  font-size: 16px;
+}
+.ant-row {
+  flex-direction: column;
+}
+.ant-col {
+  min-height: 40px;
+}
+
+@keyframes blink_effect {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.img_upload {
+  animation: blink_effect 2s infinite cubic-bezier(0.4, 0, 1, 1);
+}
+.css-dev-only-do-not-override-mxhywb {
+  margin-bottom: 0;
+}

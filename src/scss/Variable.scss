@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+// layout
+.wrap {
+  background-color: #e9e9e9;
+}
+#container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+// font-size
+$font_size_1: 12px;
+$font_size_2: 14px;
+$font_size_3: 16px;
+$font_size_4: 18px;
+$font_size_5: 20px;
+$font_size_6: 22px;
+$font_size_7: 24px;
+
+@mixin fontSizeWeight($fontSize, $fontWeight) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
+
+// color
+$primary: #74bf04;
+$secondary: #558c03;
+$accent: #93f205;
+$background: #ffffff;
+$text: #333333;
+
+// inner padding
+$inner_padding: 0 15px;
+
+//button bradient keyframe
+@mixin btn_keyframe {
+  .category_btn_ani {
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+//중앙정렬.
+@mixin position_center {
+}
+
+// 모바일 media query
+@mixin mobile {
+  @media (max-width: 480px){
+    @content
+  }
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.wrap {
+  background-color: #e9e9e9;
+}
+
+#container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.login_wrap {
+  height: 912px;
+}
+
+.header {
+  padding-top: 100px;
+}
+
+.logo_box {
+  display: flex;
+  padding-top: 250px;
+  justify-content: space-around;
+}
+.logo_box img {
+  width: 150px;
+}
+
+.img_box {
+  display: flex;
+}
+
+.login_btn {
+  padding-top: 200px;
+}
+.login_btn li {
+  margin-bottom: 8px;
+}
+.login_btn .kakao_btn {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(254, 229, 0);
+  border: 1px solid rgb(254, 229, 0);
+  border-radius: 4px;
+  color: rgb(29, 29, 29);
+}
+.login_btn .naver_btn {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #19ce60;
+  border: 1px solid #15c654;
+  border-radius: 4px;
+}
+.login_btn .naver_btn a {
+  color: #ffffff;
+}/*# sourceMappingURL=LoginPage.css.map */

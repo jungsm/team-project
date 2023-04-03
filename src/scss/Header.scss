@@ -1,0 +1,28 @@
+@import "./Variable";
+
+#header {
+  #container{
+    }
+    .inner {
+      padding: $inner_padding;
+    }
+  }
+.inner {
+  .content_wrap {
+    display: flex;
+    padding: 15px 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 85px;
+    }
+  }
+}
+/* 버튼이미지사이즈 */
+.ant-btn.ant-btn-lg {
+  font-size: 19px;
+}
+/* 버튼 음영 */
+.ant-btn-default {
+  box-shadow: none;
+}

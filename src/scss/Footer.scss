@@ -1,0 +1,40 @@
+@import "./Variable";
+
+@mixin size_color {
+  font-size: $font_size_1;
+  color: #939393;
+}
+
+footer {
+  position: relative;
+  z-index: 3;
+  
+  #container {
+    background-color: #1f1f1f;
+    .inner {
+      padding: 20px 15px;
+    }
+  }
+}
+.inner {
+  .logo {
+    width: 85px;
+  }
+  .info {
+    margin: 20px 0;
+    @include size_color;
+  }
+  .copyright {
+    margin: 30px 0 60px;
+    @include size_color;
+  }
+}
+.ant-btn-default:not(:disabled):hover {
+  color: $primary;
+  border-color: $primary;
+}
+
+// 모바일 media query
+@include mobile {
+  footer { display: none; }
+}

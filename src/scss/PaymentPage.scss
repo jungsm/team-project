@@ -1,0 +1,261 @@
+@import "./Variable";
+
+$input_width: 100%;
+$imput_height: 30px;
+
+#container {
+  .inner {
+    padding: $inner_padding;
+  }
+}
+
+.inner {
+  .title {
+    font-size: $font_size_6;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+}
+.item_list {
+  display: flex;
+  margin-bottom: 10px;
+  .item_text_box {
+    width: 100%;
+    font-size: $font_size_2;
+    margin-left: 10px;
+  }
+}
+.main_order {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 97.5%;
+    height: 1px;
+    top: 36px;
+    background-color: $text;
+    opacity: 0.3;
+  }
+  font-size: $font_size_2;
+  .main_title {
+    width: 100%;
+    font-weight: bold;
+  }
+}
+.main_address {
+  margin-top: 35px;
+  padding: 0 10px;
+  .addres_box {
+    display: flex;
+    padding-bottom: 10px;
+    .addres_text {
+      width: 27%;
+    }
+    $font_size_2: 14px;
+    .addres_inputbox {
+      width: $input_width;
+      height: $imput_height;
+      opacity: 0.4;
+      padding-left: 10px;
+      border: 1px solid darkgray;
+      border-radius: 5px;
+    }
+  }
+  .addres_post_box {
+    display: flex;
+    padding-bottom: 10px;
+    .addres_text {
+      width: 21%;
+    }
+    .addres_inputpost {
+      width: 30%;
+      height: $imput_height;
+      opacity: 0.4;
+      padding-left: 10px;
+      border: 1px solid darkgray;
+      border-radius: 5px;
+    }
+    .addres_post_button {
+      width: 60px;
+      margin-left: 30px;
+      border: 1px solid $secondary;
+      border-radius: 5px;
+      font-size: $font_size_1;
+      color: $secondary;
+      background-color: $background;
+    }
+  }
+  .addres-post_box2 {
+    .addres_inputpost {
+      width: $input_width;
+      height: $imput_height;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #e8ebed;
+      border-radius: 5px;
+      background-color: #e8ebed;
+    }
+    .addres_inputpost2 {
+      width: $input_width;
+      height: $imput_height;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      opacity: 0.4;
+
+      border: 1px solid darkgray;
+      border-radius: 5px;
+    }
+  }
+}
+.coupon_card {
+  position: relative;
+  margin-top: 40px;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 97.5%;
+    height: 1px;
+    top: 36px;
+    background-color: $text;
+    opacity: 0.3;
+  }
+  .title_box {
+    width: 100%;
+    font-weight: bold;
+    font-size: $font_size_2;
+  }
+  .coupon_text_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    font-size: $font_size_2;
+  }
+  .coupon_right {
+    display: flex;
+    margin-right: 15px;
+    .coupon_right_text {
+      position: relative;
+      margin-right: 15px;
+      line-height: 28px;
+      opacity: 0.3;
+      font-size: $font_size_1;
+    }
+    .coupon_btn {
+      width: 60px;
+      height: 30px;
+      border: 1px solid $secondary;
+      border-radius: 5px;
+      font-size: $font_size_1;
+      color: $secondary;
+      background-color: $background;
+    }
+  }
+}
+.price_card {
+  position: relative;
+  margin-top: 40px;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 97.5%;
+    height: 1px;
+    top: 36px;
+    background-color: $text;
+    opacity: 0.3;
+  }
+  font-size: $font_size_2;
+  .price_title {
+    width: 100%;
+    font-weight: bold;
+  }
+}
+.price_btn_box {
+  display: flex;
+  margin-top: 35px;
+  .price_btn {
+    width: 100%;
+  }
+  button {
+    width: 93%;
+    height: 60px;
+    margin: 10px;
+    border: 1px solid $secondary;
+    border-radius: 5px;
+    color: $secondary;
+    background-color: $background;
+  }
+}
+.amount_card {
+  position: relative;
+  margin-top: 40px;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 97.5%;
+    height: 1px;
+    top: 36px;
+    background-color: $text;
+    opacity: 0.3;
+  }
+  font-size: $font_size_2;
+  .amount_title {
+    width: 100%;
+    font-weight: bold;
+  }
+}
+.amount_list_box {
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-between;
+  li {
+    padding: 5px;
+  }
+}
+.amount_right_text {
+  padding: 5px 10px 0 0;
+}
+.amount_last {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d1e4b6;
+  color: $secondary;
+  font-weight: bold;
+
+  .amount_last_left {
+    li {
+      padding: 5px;
+    }
+  }
+  .amount_last_right {
+    & li {
+      padding: 5px 15px 5px 0;
+    }
+  }
+}
+.checkbox {
+  margin-top: 35px;
+  input {
+    margin-right: 10px;
+  }
+  span {
+    color: $secondary;
+    text-decoration: underline;
+  }
+}
+.payment_btn {
+  margin-top: 10px;
+  button {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #c3eb89;
+    color: $secondary;
+  }
+}

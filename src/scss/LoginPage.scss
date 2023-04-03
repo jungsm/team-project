@@ -1,0 +1,76 @@
+@import "./Variable";
+
+.login_wrap {
+  height: 700px;
+}
+
+.logo_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  img {
+    width: 150px;
+  }
+}
+.img_box {
+  display: flex;
+}
+
+.login_btn {
+  padding-top: 200px;
+  li {
+    margin-bottom: 8px;
+  }
+  .kakao_btn {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(254, 229, 0);
+    border: 1px solid rgb(254, 229, 0);
+    border-radius: 4px;
+    color: rgb(29, 29, 29);
+    ::before {
+      position: absolute;
+      content: "";
+      width: 30px;
+      height: 30px;
+      top: 14px;
+      left: 100px;
+      background-image: url("../../public/images/icons/img_login_icon.png");
+      background-repeat: no-repeat;
+    }
+  }
+  .naver_btn {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1ec800;
+    border: 1px solid #1ec800;
+    border-radius: 4px;
+    ::before {
+      position: absolute;
+      content: "";
+      width: 30px;
+      height: 30px;
+      top: 14px;
+      left: 99px;
+      background-image: url("../../public/images/icons/img_login_naver.png");
+      background-repeat: no-repeat;
+    }
+    span {
+      font-weight: bold;
+    }
+    a {
+      color: $background;
+    }
+  }
+}

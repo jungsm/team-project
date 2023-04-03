@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.wrap {
+  background-color: #e9e9e9;
+}
+
+#container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.swiper_banner_slide_wrap .swiper_banner_slide {
+  width: 100%;
+  max-width: 450px !important;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.swiper_banner_slide_wrap .swiper_banner_slide .img_banner {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.swiper_banner_slide_wrap .swiper_banner_slide .img_banner img {
+  width: 100%;
+}
+
+.inner {
+  padding: 0 15px;
+}
+
+.contentStyle8, .contentStyle7, .contentStyle6, .contentStyle5 {
+  border-radius: 10px;
+  margin: 50px auto;
+  height: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contentStyle5 {
+  background-image: url("../../public/images/banner/Banner_img_5.png");
+}
+
+.contentStyle6 {
+  background-image: url("../../public/images/banner/Banner_img_6.png");
+}
+
+.contentStyle7 {
+  background-image: url("../../public/images/banner/Banner_img_7.png");
+}
+
+.contentStyle8 {
+  background-image: url("../../public/images/banner/Banner_img_8.png");
+}/*# sourceMappingURL=Banner.css.map */
