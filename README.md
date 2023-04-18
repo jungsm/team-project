@@ -6,7 +6,7 @@
 [![axios Version][axios-image]][node-url]
 
 ## General Information
-> 기획서 보기 [_here_](https://github.com/jungsm/bbatsueWeb/blob/main/file/%EB%BA%8F%EC%8A%88_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C_%EC%B5%9C%EC%A2%85%EC%88%98%EC%A0%95%EB%B3%B8.pdf)
+> 기획서 보기 [_here_]([https://github.com/jungsm/bbatsueWeb/blob/main/file/%EB%BA%8F%EC%8A%88_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C_%EC%B5%9C%EC%A2%85%EC%88%98%EC%A0%95%EB%B3%B8.pdf](https://file.notion.so/f/s/5b5b3e1a-93e2-4401-aeb7-17a4f1749521/2%EC%A1%B0(ANBD_).pdf?id=edd53c80-771d-4d13-8468-d94321a0871d&table=block&spaceId=f2b063ab-5763-4522-82a6-f18f4aaa1c70&expirationTimestamp=1681890681161&signature=yIJ0Cn-KbZffLYDpzeq05AdKPU3_DVOLe9lT7mTV9oY&downloadName=2%EC%A1%B0%28ANBD_%29.pdf))
 - 기획서의 목차작성
 - 기획서의 내용을 간락히 요약 정리
 > PWA 앱으로 제작한 react(프론트엔드) + node.js(웹서버) 프로젝트 중고 쇼핑몰 입니다.<br>
