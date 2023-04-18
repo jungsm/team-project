@@ -105,7 +105,10 @@ _더 많은 예제와 사용법은 [표시되는글자][http://naver.com]를 참
 - 지도api javascript코드 react코드로 변경작업.
 
 - 깃허브 공동작업 -> 해결) 각자 branch 만들어서 push 및 에러없으면 main branch에 merge
-
+## General Information
+> 기획서 보기 [_here_](https://github.com/jungsm/bbatsueWeb/blob/main/file/%EB%BA%8F%EC%8A%88_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C_%EC%B5%9C%EC%A2%85%EC%88%98%EC%A0%95%EB%B3%B8.pdf)
+- 기획서의 목차작성
+- 기획서의 내용을 간락히 요약 정리
 
 ## 정보 및 담당
 
